@@ -5,6 +5,9 @@
   "repository": "https://Jojr@github.com/Jojr/tdd-clean-achitecture.git",
   "author": "João Belem Jr <junior.jb@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.20",
@@ -14,6 +17,7 @@
     "eslint-plugin-import": "2",
     "eslint-plugin-node": "11",
     "eslint-plugin-promise": "4",
+    "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-standard": "4",
     "git-commit-msg-linter": "^3.0.0",
     "husky": "^4.3.7",
