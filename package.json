@@ -6,7 +6,10 @@
   "author": "João Belem Jr <junior.jb@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest --passWithNoTests",
+    "test:watch": "yarn test -- --watch",
+    "test:staged": "yarn test -- --findRelatedTests",
+    "test:ci": "yarn test -- --coverage"
   },
   "devDependencies": {
     "@types/jest": "^26.0.20",
