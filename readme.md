@@ -1,6 +1,6 @@
 
 ![](https://i.imgur.com/DNQ4Etm.png)
-# React Native | TDD | Clean Architecture
+# React | TDD | Clean Architecture
 React Native mobile application built using Test Driven Development and Clean Architecture.
 
 ## Description
