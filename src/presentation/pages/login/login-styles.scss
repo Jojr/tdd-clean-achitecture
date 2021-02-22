@@ -1,13 +1,4 @@
-$white: #FFF;
-$black: #000;
-$background: #F2F2F2;
-$primary: #880E4F;
-$primaryDark: #560027;
-$primaryLight: #BC477B;
-$disabledBackground: #CCC;
-$disabledColor: #666;
-$valid: #4CAF50;
-$invalid: #EF5350;
+@import "../../styles/colors.scss";
 
 * {
   font-family: 'Roboto', sans-serif;
@@ -59,7 +50,14 @@ button {
     border-top: 20px solid $primaryDark;
     background-color: $primary;
     align-items: center;
-    padding: 40px;
+  }
+  img {
+    margin-top: 40px;
+  }
+
+  h1 {
+    color: $white;
+    margin: 16px 0px 40px;
   }
 
   .form {
@@ -112,6 +110,21 @@ button {
       &:hover {
         text-decoration: underline;
       }
+    }
+
+    .errorWrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .spinner {
+        margin-top: 30px;
+      }
+
+       .error {
+        margin-top: 30px;
+        color: $primaryLight;
+       }
     }
   }
 
