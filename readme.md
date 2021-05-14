@@ -1,10 +1,10 @@
 
 ![](https://i.imgur.com/DNQ4Etm.png)
 # React | TDD | Clean Architecture
-React Native mobile application built using Test Driven Development and Clean Architecture.
+React application built using Test Driven Development and Clean Architecture.
 
 ## Description
-I'm building this project based on the Rodrigo Mango course available on Udemy.
+I'm building this project based on the Rodrigo Manguinho course available on Udemy.
 
 
 ## Functionalities
@@ -21,8 +21,7 @@ yarn install
 ```
 2) Build for the platform:
 ```
-npx react-native run-ios // IOS ou
-npx react-native run-android // Android
+yarn start
 ```
 
 ## Preview
