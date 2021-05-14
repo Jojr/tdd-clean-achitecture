@@ -112,4 +112,11 @@ describe('Login component', () => {
       password
     })
   })
+
+  test('should call authentication only once', () => {
+    const { sut, authenticationSpy } = makeSut()
+    simulateValidFormSubmit(sut)
+    simulateValidFormSubmit(sut)
+    expect(authenticationSpy.callsCount).toBe(1)
+  })
 })
